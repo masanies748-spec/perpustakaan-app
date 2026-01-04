@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html><head>
+<title>Denda</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkLogin()">
+
+<div class="navbar"><div class="container">
+<img src="assets/logo-mandala.jpg">
+<div class="menu"><a href="dashboard.html">Beranda</a><a href="#" onclick="logout()">Logout</a></div>
+</div></div>
+
+<div class="container">
+<h2>Simulasi Denda</h2>
+<div class="form">
+<input id="hariTerlambat" type="number" placeholder="Hari keterlambatan">
+<button onclick="hitungDenda()">Hitung</button>
+<p>Estimasi denda: <strong id="hasil">Rp 0</strong></p>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body></html>

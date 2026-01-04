@@ -1,0 +1,39 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Segoe UI,Arial}
+body{background:#f9faff;color:#333}
+.container{width:92%;max-width:1200px;margin:auto}
+h1,h2,h3{margin:10px 0}
+p{line-height:1.6}
+a{text-decoration:none;color:#fff}
+
+/* NAVBAR */
+.navbar{background:#0056b3;padding:12px 0}
+.navbar .container{display:flex;align-items:center;justify-content:space-between}
+.navbar img{height:42px}
+.menu a{margin-left:14px;font-weight:600}
+
+/* HERO */
+.hero{background:url("assets/hero-bg.jpg") center/cover no-repeat;color:#fff;padding:80px 0;text-align:center}
+
+/* CARD */
+.cards{display:flex;gap:16px;flex-wrap:wrap;margin-top:15px}
+.card{background:#fff;border-radius:10px;padding:16px;box-shadow:0 4px 10px rgba(0,0,0,.08);flex:1;min-width:220px}
+
+/* FORM */
+.form{background:#fff;border-radius:10px;padding:16px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+input,select,button{width:100%;padding:10px;margin-top:10px;border-radius:6px;border:1px solid #ccc}
+button{background:#0056b3;color:#fff;border:none;cursor:pointer}
+button:hover{background:#003a80}
+
+/* TABLE */
+table{width:100%;border-collapse:collapse;margin-top:10px;background:#fff}
+th,td{border:1px solid #ddd;padding:8px;text-align:center}
+th{background:#0056b3;color:#fff}
+
+/* FOOTER */
+footer{text-align:center;padding:20px;font-size:14px;color:#666}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  .cards{flex-direction:column}
+  .menu a{display:inline-block;margin:6px}
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html><head>
+<title>Peminjaman</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkLogin()">
+
+<div class="navbar"><div class="container">
+<img src="assets/logo-mandala.jpg">
+<div class="menu"><a href="dashboard.html">Beranda</a><a href="#" onclick="logout()">Logout</a></div>
+</div></div>
+
+<div class="container">
+<h2>Peminjaman Buku</h2>
+<div class="form">
+<form id="formPinjam">
+<input id="nama" placeholder="Nama">
+<input id="nim" placeholder="NIM">
+<input id="buku" placeholder="Judul Buku">
+<input type="date" id="tanggal">
+<button type="button" onclick="pinjam()">Simpan</button>
+</form>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body></html>

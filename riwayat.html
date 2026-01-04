@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html><head>
+<title>Riwayat</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkLogin();loadRiwayat()">
+
+<div class="navbar"><div class="container">
+<img src="assets/logo-mandala.jpg">
+<div class="menu"><a href="dashboard.html">Beranda</a><a href="#" onclick="logout()">Logout</a></div>
+</div></div>
+
+<div class="container">
+<h2>Riwayat Peminjaman</h2>
+<table>
+<thead><tr><th>No</th><th>Nama</th><th>NIM</th><th>Buku</th><th>Tanggal</th></tr></thead>
+<tbody id="tbody"></tbody>
+</table>
+</div>
+
+<script src="script.js"></script>
+</body></html>
